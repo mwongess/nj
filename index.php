@@ -1,4 +1,15 @@
 <?php require_once( 'couch/cms.php' ); ?>
+<cms:editable name='socials' label='Socials' desc='Social Links' type='group' />
+<cms:editable name='email' label='Email' desc='Enter email to display on the page'
+    maxlength='20'
+    type='text' 
+    group="socials"
+    />
+<cms:editable name='whatsapp' label='Whatsapp' desc='Enter contact to display on the page'
+    maxlength='20'
+    type='text' 
+    group="socials"
+    />
 <!DOCTYPE html>
 <html lang="en">
   <head>
