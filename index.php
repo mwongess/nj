@@ -1,4 +1,25 @@
 <?php require_once( 'couch/cms.php' ); ?>
+<cms:editable name='about-texts' label='About' desc='About Texts' type='group' />
+<cms:editable name='p-1' label='Paragraph 1' 
+    maxlength='200'
+    type='text' 
+    group="about-texts"
+    />
+    <cms:editable name='p-2' label='Paragraph 2' 
+    maxlength='200'
+    type='text' 
+    group="about-texts"
+    />
+    <cms:editable name='p-3' label='Question after button' 
+    maxlength='200'
+    type='text' 
+    group="about-texts"
+    />
+    <cms:editable name='p-4' label='Last paragraph' 
+    maxlength='200'
+    type='text' 
+    group="about-texts"
+    />
 <cms:editable name='socials' label='Socials' desc='Social Links' type='group' />
 <cms:editable name='email' label='Email' desc='Enter email to display on the page'
     maxlength='20'
@@ -10,6 +31,9 @@
     type='text' 
     group="socials"
     />
+
+
+    <!-- HTML -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
