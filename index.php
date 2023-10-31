@@ -106,7 +106,7 @@
           </div>
           <a class="link f4" href="#kigali">
             <p class=" link black tc pa3 paintbrush-line b grow">
-              <cms:editable name='p-3' label='Question after button' maxlength='200' type='text' group="about-texts" />
+              <cms:editable name='p-3' label='Question after button' maxlength='200' type='text' group="about-texts" >
               Are you in Kigali?
               </cms:editable>
             </p>
@@ -115,10 +115,10 @@
             <path fill="none" stroke="var(--yellow)" stroke-width="4" d="M0,5 C25,2 75,2 100,5"></path>
           </svg>
           <p class="f7 tc pa1">
-            <cms:editable name='p-4' label='Last paragraph' maxlength='200' type='text' group="about-texts" />
+            <cms:editable name='p-4' label='Last paragraph' maxlength='200' type='text' group="about-texts" >
             Come and collect your favourite products!
-          </p>
           </cms:editable>
+          </p>
         </div>
       </div>
     </div>
