@@ -1,4 +1,55 @@
 <?php require_once( 'couch/cms.php' ); ?>
+<!-- About | Paragraphs -->
+<cms:editable name='about-texts' label='About' desc='About Texts' type='group' />
+<cms:editable name='p-1' label='Paragraph 1' 
+    maxlength='200'
+    type='text' 
+    group="about-texts"
+    />
+    <cms:editable name='p-2' label='Paragraph 2' 
+    maxlength='200'
+    type='text' 
+    group="about-texts"
+    />
+    <cms:editable name='p-3' label='Question after button' 
+    maxlength='200'
+    type='text' 
+    group="about-texts"
+    />
+    <cms:editable name='p-4' label='Last paragraph' 
+    maxlength='200'
+    type='text' 
+    group="about-texts"
+    />
+
+<!-- Buy art | Artwork -->
+<cms:editable name='artwork-images' label='Artwork' desc='Image Paintings' type='group' />
+<cms:editable name='elephant' label='Elephant' desc='Upload another image here' show_preview='1'
+    group='artwork-images'
+    type='image' />
+<cms:editable name='dark_mountain' label='Dark mountain' desc='Upload another image here' show_preview='1'
+    group='artwork-images'
+    type='image' />
+<cms:editable name='blue_landscape' label='Blue landscape' desc='Upload another image here' show_preview='1'
+    group='artwork-images'
+    type='image' />
+<cms:editable name='traditional_culture' label='African traditional culture' desc='Upload another image here' show_preview='1'
+    group='artwork-images'
+    type='image' />
+<cms:editable name='our_tradition' label='Our tradition' desc='Upload another image here' show_preview='1'
+    group='artwork-images'
+    type='image' />
+<cms:editable name='baskets_lady' label='African lady making baskets' desc='Upload another image here' show_preview='1'
+    group='artwork-images'
+    type='image' />
+<cms:editable name='pot_lady' label='Lady with Pot' desc='Upload another image here' show_preview='1'
+    group='artwork-images'
+    type='image' />
+<cms:editable name='tradition_dancer' label='African tradition dancer' desc='Upload another image here' show_preview='1'
+    group='artwork-images'
+    type='image' />
+
+<!-- Footer | Social Links -->
 <cms:editable name='socials' label='Socials' desc='Social Links' type='group' />
 <cms:editable name='email' label='Email' desc='Enter email to display on the page'
     maxlength='20'
@@ -10,6 +61,8 @@
     type='text' 
     group="socials"
     />
+
+<!-- HTML -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
